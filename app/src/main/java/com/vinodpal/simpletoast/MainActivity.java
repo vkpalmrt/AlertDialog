@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 SimpleToast.createToast(this, "This is the success toast.", SimpleToast.LENGTH_LONG, SimpleToast.SUCCESS).show();
                 break;
             case R.id.btnError:
-                SimpleToast.createToast(this, "This is the error toast.", SimpleToast.LENGTH_LONG, SimpleToast.ERROR).show();
+                SimpleToast.createToast(this, "This is the errors toast.", SimpleToast.LENGTH_LONG, SimpleToast.ERROR).show();
                 break;
             case R.id.btnWarning:
                 SimpleToast.createToast(this, "This is the warning toast.", SimpleToast.LENGTH_LONG, SimpleToast.WARNING).show();
